@@ -1,0 +1,36 @@
+body {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    background: rgb(26, 26, 26);
+}
+
+a {
+    &:hover {
+        color: rgb(30, 214, 214);
+    }
+
+    color: teal;
+    transition: .15s;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: .85vmin;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(71, 71, 71);
+}
+
+::-webkit-scrollbar-thumb {
+    &:hover {
+        background: gray;
+    }
+
+    border-radius: 10px;
+    background: white;
+}

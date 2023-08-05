@@ -1,0 +1,23 @@
+@mixin borderAndBackgroundStyle() {
+    border-radius: 5px;
+    border: 1.55px solid white;
+    background-color: rgb(22, 27, 34);
+}
+
+.mantine-TextInput-label {
+    color: white;
+}
+
+#searchprofile_button_container {
+    > #searchprofile_button {
+        &:hover {
+            background-color: rgb(48, 57, 70);
+        }
+    
+        @include borderAndBackgroundStyle();
+    }
+}
+
+#textinput {
+    color: white;
+}

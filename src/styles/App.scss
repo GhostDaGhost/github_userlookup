@@ -1,0 +1,15 @@
+#outercontainer {
+    > #innercontainer {
+        width: 550px;
+
+        margin-bottom: 28px;
+        padding: 10px;
+
+        top: 1vmin;
+        position: relative;
+
+        border-radius: 5px;
+        border: 1.55px solid white;
+        background-color: #010409;
+    }
+}
